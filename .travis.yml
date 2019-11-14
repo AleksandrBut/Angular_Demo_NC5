@@ -11,10 +11,3 @@ before_script:
 script:
 - ng lint
 - ng build --prod --base-href https://github.com/AleksandrBut/Angular_Demo_NC5/
-deploy:
-  provider: heroku
-  api_key:
-    secure: z0ejBHPVOuIUWIAeG_ID9Q
-  app: angular-nc5
-  on:
-    repo: AleksandrBut/Angular_Demo_NC5
