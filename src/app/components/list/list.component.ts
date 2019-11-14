@@ -8,18 +8,18 @@ import {MyServiceService} from '../../service/my-service.service';
 })
 export class ListComponent implements OnInit {
 
-  public todos: any = [];
+  public names: any = [];
 
   constructor(private myServiceService: MyServiceService) {
   }
 
   ngOnInit() {
-    this.handleGetTodos();
+    this.handleGetNames();
   }
 
-  public handleGetTodos() {
-    this.myServiceService.getTodos().subscribe((todos) => {
-      this.todos = todos;
+  public handleGetNames() {
+    this.myServiceService.getNames().subscribe((names) => {
+      this.names = names;
     });
   }
 }
