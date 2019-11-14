@@ -1,0 +1,24 @@
+.todoListTitle {
+  background: #dbffd9;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.todoList {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  li {
+    will-change: transform;
+    transition: color 0.1s, transform 0.1s;
+    &:hover {
+      color: red;
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+}
