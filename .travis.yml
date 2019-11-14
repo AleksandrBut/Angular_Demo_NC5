@@ -16,3 +16,5 @@ deploy:
   api_key:
     secure: z0ejBHPVOuIUWIAeG_ID9Q
   app: angular-nc5
+  on:
+    repo: AleksandrBut/Angular_Demo_NC5
