@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { HttpClientModule} from '@angular/common/http';
 
-@Nclarations: [
+@NgModule({
+  declarations: [
     AppComponent,
     ListComponent
   ],
