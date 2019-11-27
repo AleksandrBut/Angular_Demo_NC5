@@ -11,3 +11,10 @@ before_script:
 script:
 - ng lint
 - ng build --prod --base-href https://github.com/AleksandrBut/Angular_Demo_NC5/
+notifications:
+  email:
+    recipients:
+      - alex638000@gmail.com
+      - ir.prikhodko@gmail.com
+    on_success: always
+    on_failure: always
